@@ -1,0 +1,125 @@
+
+
+@font-face {
+    font-family: Poppins;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(assets/fonts/Poppins-ExtraBold.ttf);
+    font-weight: 600 900;
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: italic;
+    src: url(assets/fonts/Poppins-ExtraBoldItalic.ttf);
+    font-weight: 600 900;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Poppins;
+    background-color: hsl(0, 0%, 94%);
+}
+
+.container {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px 15px 90px 15px;
+    background-color: white
+}
+
+.fieldwrap {
+    display: flex;
+    width:80%;
+    justify-content: flex-start;
+    box-sizing: border-box;
+
+
+}
+
+#innerwrap {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight:600;
+    color: hsl(0, 1%, 44%);
+    letter-spacing: 2px;
+}
+
+
+input {
+    width: 84%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    flex:1;
+    border: 1px solid hsl(0, 0%, 86%);
+    border-radius: 5px;
+    color: hsl(0, 1%, 44%);
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.displaywrap {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.display {
+    display:flex;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    height: 63px
+}
+
+#yearsdisplay {
+    height: 20px
+}
+
+.space {
+    color: hsl(259, 100%, 65%);
+    margin-right: 6px;
+}
+
+.calwrap {
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+
+.line {
+    /* width: 100%;*/
+    flex-grow: 1;
+    height: 1px;
+    background-color: hsl(0, 0%, 86%);
+
+}
+
+.calculate {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    background-color:hsl(259, 100%, 65%)
+}
+
+img {
+    height:25px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Age calculator app</title>
+  <link href="index.css" rel="stylesheet">
+</head>
+<body>
+  <div id="daymessage"></div>
+  <div id="monthmessage"></div>
+  <div id="yearmessage"></div>
+  <div id="message"></div>
+  <div id="invalid"></div>
+<div class="container">
+  <div class="fieldwrap">
+    <div class="daywrap" id="innerwrap">
+      DAY
+      <input class="input" type="text" id="dayfield" placeholder="DD">
+    </div>
+    <div class="monthwrap" id="innerwrap">
+      MONTH
+      <input class="input" type="text" id="monthfield" placeholder="MM">
+    </div>
+    <div class="yearwrap" id="innerwrap">
+      YEAR
+      <input class="input" type="text" id="yearfield" placeholder="YYYY">
+    </div>
+  </div>
+  <div class="calwrap">
+    <div class="line"></div>
+  <button class="calculate" id="calculate"><img src="icon-arrow.svg"></button>
+  </div>
+  <div class="displaywrap">
+    <div class="display" id="daydisplay">
+      <div id="yeardash" class="space">- -</div>
+      <div class="label">years</div>
+    </div>
+    <div class="display" id="monthdisplay">
+      <div id="monthdash" class="space">- -</div>
+      <div class="label">months</div>
+    </div>
+    <div class="display" id="yeardisplay">
+      <div id="daydash" class="space">- -</div>
+      <div class="label">days</div>
+    </div>
+  </div>
+</div>
+
+<script src="moment.js"></script>
+<script src="index2.js"></script>
+</body>
+</html>
